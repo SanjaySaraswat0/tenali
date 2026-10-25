@@ -26,7 +26,7 @@
 
 ---
 
-### ✨ **90 puzzle types across 69 topic areas · Algorithmically generated · Adaptive difficulty · Live multiplayer · Step-by-step solutions**
+### ✨ **89 puzzle types across 69 topic areas · Algorithmically generated · Adaptive difficulty · Live multiplayer · Step-by-step solutions**
 
 </div>
 ## 🧠 Pedagogical Features: Progressive & Interactive Learning
@@ -125,7 +125,7 @@ Learning JSON → learnContent.js → Learning Page → Interactive Components
 
 Tenali (named after the legendary **Tenali Raman** — the witty Indian scholar who outwitted entire courts with logic) is an **adaptive math learning platform** featuring algorithmically-generated puzzle types, real-time multiplayer battles, and step-by-step solutions for every problem. Every question is generated on the fly — there is no question database — so practice is infinite and never repeats. Difficulty adapts to each learner in real time.
 
-There isn't one canonical "puzzle count" — different parts of the codebase group content differently, and that's worth naming instead of collapsing into a single number: the server exposes **90 distinct `*-api` route pairs** (the real unit of "a puzzle type"), grouped under **69 topic areas** in the `/graph` prerequisite map, and the home-screen tile registry (`client/src/features/tiles.js`) lists **100+ tiles**, because several route pairs surface as more than one tile (e.g. an MCQ "gym" drill and a full-form drill on the same topic, via `foldInto`). Use whichever number matches what you're actually counting.
+There isn't one canonical "puzzle count" — different parts of the codebase group content differently, and that's worth naming instead of collapsing into a single number: the server exposes **89 distinct `*-api` route pairs** (the real unit of "a puzzle type"), grouped under **69 topic areas** in the `/graph` prerequisite map, and the home-screen tile registry (`client/src/features/tiles.js`) lists **100+ tiles**, because several route pairs surface as more than one tile (e.g. an MCQ "gym" drill and a full-form drill on the same topic, via `foldInto`). Use whichever number matches what you're actually counting.
 
 It is built to run on a single VPS — `tenali.fun` — with one Node process serving the React app, the puzzle APIs, the JWT auth, the Socket.IO Battle Arena, and the multi-language code playground.
 
@@ -478,7 +478,7 @@ JWT auth with **fail-fast** in production, `express-rate-limit`, CORS allowlist,
 │         └────────────┬────┴────────────┬────┘                   │
 │                      ▼                 ▼                         │
 │  ┌──────────────────────────────────────────────────────┐        │
-│  │  90 puzzle routes, grouped into router modules under │        │
+│  │  89 puzzle routes, grouped into router modules under │        │
 │  │  server/routes/ (GET ?question, POST ?check)         │        │
 │  └──────┬───────────────────────────────────────────────┘        │
 │         │                                                        │
