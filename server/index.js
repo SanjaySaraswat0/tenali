@@ -653,6 +653,10 @@ app.use('/circmeasure-api',advancedRouter);
 app.use('/conics-api',     advancedRouter);
 app.use('/vectors-api',       advancedRouter);
 app.use('/transform-api',     advancedRouter);
+// Removed: Linear Algebra lab APIs now live on the matrixmystics branch.
+['/matrixmystics-api', '/linearalgebra-api', '/la-mission-quiz-api'].forEach((path) => {
+  app.use(path, (req, res) => res.status(404).json({ error: 'Not found' }));
+});
 
 const statsRouter = require('./routes/stats');
 app.use('/permcomb-api',   statsRouter);

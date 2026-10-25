@@ -295,7 +295,7 @@ Per-topic mastery, public badge board, collection completion.
 Run code in **50+ languages** via `/api/playground2/run`.
 
 ### 🎨 15. 10+ Custom React Apps
-`LcmHcfApp`, `LinearAlgebraApp` (56 missions × 6 modules), `GeometryApp`, `ProbLabApp`, `PythagLabApp`, `BearingsLabApp`, `NetBuilderApp`, `ShapeSlicer3D`, `ShapeTranslatorApp`, `ScribbleGuessApp`, `Curiosity.jsx`, `SudokuApp`, `VisualMathLabRedux`, `PlaygroundApp`, `LocalCompilerApp`.
+`LcmHcfApp`, `GeometryApp`, `ProbLabApp`, `PythagLabApp`, `BearingsLabApp`, `NetBuilderApp`, `ShapeSlicer3D`, `ShapeTranslatorApp`, `ScribbleGuessApp`, `Curiosity.jsx`, `SudokuApp`, `VisualMathLabRedux`, `PlaygroundApp`, `LocalCompilerApp`.
 
 ### 🌐 16. i18n & RTL Support
 Built-in locale switching (`/src/locales`) for multi-language classrooms.
@@ -397,16 +397,14 @@ JWT auth with **fail-fast** in production, `express-rate-limit`, CORS allowlist,
 | 54 | Sets | `/sets-api` |
 | 55 | Bearings | `/bearings-api` |
 | 56 | Matrices | `/matrix-api` |
-| 57 | Linear Algebra (56 missions) | `/linearalgebra-api` |
 
 </details>
 
 <details>
-<summary><b>🧮 Linear Algebra & Vectors (6 types)</b></summary>
+<summary><b>🧮 Linear Algebra & Vectors (4 types)</b></summary>
 
 | | Type | Endpoint |
 |:-:|-------|----------|
-| 58 | LA Mission Quiz | `/la-mission-quiz-api` |
 | 59 | Vectors | `/vectors-api` |
 | 60 | Dot Products | `/dotprod-api` |
 | 61 | Dot Products Gym (MCQ) | `/dotprodgym-api` |
